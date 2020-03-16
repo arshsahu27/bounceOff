@@ -15,8 +15,8 @@ function draw() {
  rect2.velocityX =5;
 
 
-  if(rect2.x-rect1.x===rect2.width/2+rect1.width/2&&
-    rect1.x-rect2.x===rect2.width/2+rect1.width/2)
+  if(rect2.x-rect1.x<rect2.width/2+rect1.width/2&&
+    rect1.x-rect2.x<rect2.width/2+rect1.width/2)
     {
    
     rect2.shapeColor="yellow";
